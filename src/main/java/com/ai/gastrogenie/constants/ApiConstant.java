@@ -1,5 +1,5 @@
 package com.ai.gastrogenie.constants;
 
 public class ApiConstant {
-    public static final String URL = "api/v1";
+    public static final String URL = "/api/v1";
 }
