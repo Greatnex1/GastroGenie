@@ -60,19 +60,20 @@ mvn spring-boot:run
    cd GastroGenie
    ```
 
-2. **Configure OpenAPI:**
+2. **Configure OpenAI:**
 
-  
-
-2. **OpenAI Key:**
+**OpenAI Key:**
 
    Modify the `src/main/resources/application.properties` file to include your OpenAi Key:
 
-    ```properties   
-   spring.ai.openai.api-key=your OpenAi Key
-    ```
+ ```properties
+    spring.ai.openai.api-key= your_OpenAi_Key
+    
+   ```
+ 
 
 ## API Endpoints
+
 
 GastroGenie offers the following API endpoints:
 
