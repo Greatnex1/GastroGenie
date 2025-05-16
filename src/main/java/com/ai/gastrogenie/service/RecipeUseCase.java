@@ -13,6 +13,6 @@ public interface RecipeUseCase {
 
     Recipe suggestBestRecipeFromIngredientsAndIncludeTheNumberOfCalories(String message) ;
 
-     List<Recipe> suggestBestRecipeFromIngredientsAsList(String message) ;
+     List<Recipe> suggestBestRecipeFromIngredientsPresentTheResultAsList(String message) ;
 
     }
