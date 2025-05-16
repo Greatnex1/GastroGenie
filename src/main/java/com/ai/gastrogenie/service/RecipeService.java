@@ -101,7 +101,7 @@ public class RecipeService implements RecipeUseCase {
                 .content();
         return beanOutputConverter.convert(response);
     }
-    public List<Recipe> suggestBestRecipeFromIngredientsAsList(@RequestParam(name = "ingredient", defaultValue = "shrimp")
+    public List<Recipe> suggestBestRecipeFromIngredientsPresentTheResultAsList(@RequestParam(name = "ingredient", defaultValue = "shrimp")
                                                                                   String ingredient) {
 
         String messages = """
