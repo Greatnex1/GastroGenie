@@ -57,7 +57,7 @@ mvn spring-boot:run
 
    ```bash
    git clone https://github.com/Greatnex1/GastroGenie.git
-   cd Language Learning Model
+   cd GastroGenie
    ```
 
 2. **Configure OpenAPI:**
